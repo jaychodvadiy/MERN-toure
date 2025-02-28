@@ -1,0 +1,40 @@
+.service__item {
+    padding: 1rem;
+    border-bottom: 1px solid  orange;
+    /* border-top: 1px solid #354bfa86; */
+    border-right: 1px solid orange;
+    /* border-left: 1px solid #faa83586; */
+    border-radius: 5px;
+  }
+  
+  .service__img{
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      background: orangered;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      line-height: 50px;
+      position: relative;
+      left: 7.0rem;
+  }
+  
+  
+  .service__img img{
+      width: 100%;
+  }
+  
+  .service__item h5{
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 500;
+  }
+  
+  .service__item p {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--text-color);
+  }
